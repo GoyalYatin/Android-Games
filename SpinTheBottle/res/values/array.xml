@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="truth"> 
+    <item>"Describe your wildest dream"</item> 
+    <item>"Last time you bathed"</item> 
+    <item>"Describe your wildest deed"</item> 
+    <item>"Describe one prank that you are victim of"</item> 
+    <item>"Have you ever kissed a girl"</item>
+    <item>"Describe your phobia"</item> 
+    <item>"Any embaracing incident of childhood"</item> 
+    <item>"Ever been in relationship"</item> 
+    <item>"Have you ever wondered you are gay"</item> 
+    <item>"Biggest lie you told us"</item>
+    <item>"Bad habit that you successfully dropped"</item> 
+    <item>"Bad habit that you failed to drop"</item> 
+    <item>"Any drunk incident"</item> 
+    <item>"Highest capacity of drinking and when"</item> 
+    <item>"Hottest opposite sex person we know"</item>
+    <item>"Describe weirdest person among us"</item> 
+    <item>"Hottest person among us"</item> 
+	</string-array>
+	<string-array name="dare"> 
+    <item>"Act like mad man"</item> 
+    <item>"Repeat 5 times kacha papad pakka papad"</item> 
+    <item>"Bark like a dog for 1 min"</item> 
+    <item>"Dance for 2 min"</item> 
+    <item>"Sing for 2 min"</item>
+    <item>"Irritate someone strange"</item> 
+    <item>"Do a victory lap of surrounding"</item> 
+    <item>"Do a loud laugh"</item> 
+    <item>"Scream like hell"</item> 
+    <item>"Seduce any one of same sex"</item>
+    <item>"Imitate any senior/teacher"</item> 
+    <item>"Mimic any celebrity"</item> 
+    <item>"Poke someone strange"</item> 
+    <item>"Say from z-a"</item> 
+    <item>"Scream out louder thrice-i'm mad"</item>
+    <item>"Sing a patriotic song"</item> 
+    <item>"Slap hard yourself thrice"</item> 
+	</string-array> 
+</resources>

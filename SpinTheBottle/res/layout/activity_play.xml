@@ -1,0 +1,151 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".Play" >
+
+
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/spinthebottle" />
+
+            <ImageButton
+                android:id="@+id/dare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/imageview"
+                android:layout_marginTop="38dp"
+                android:background="@drawable/blank"
+                android:cropToPadding="false"
+                android:src="@drawable/dareplaypng" />
+
+            <ImageButton
+                android:id="@+id/alldare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/dare"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/blank"
+                android:cropToPadding="false"
+                android:src="@drawable/daresplaypng" />
+            <ImageButton
+                android:id="@+id/truth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/alldare"
+                android:layout_alignTop="@+id/dare"
+                android:background="@drawable/blank"
+                android:layout_alignParentRight="true"
+                android:cropToPadding="false"
+                android:src="@drawable/truthplaypng" />
+
+            <ImageButton
+                android:id="@+id/alltruth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/alldare"
+                android:layout_alignLeft="@+id/truth"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/alldare"
+                android:background="@drawable/blank"
+                android:cropToPadding="false"
+                android:src="@drawable/truthsplaypng" />
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/imageview"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="17dp"
+                android:background="@drawable/blank"
+                android:src="@drawable/backplaypng" />
+
+       
+
+            <ImageButton
+                android:id="@+id/spin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/back"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="17dp"
+                android:background="@drawable/blank"
+                android:src="@drawable/spinplaypng" />
+
+            <ImageButton
+                android:id="@+id/exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/imageview"
+                android:layout_alignTop="@+id/spin"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="17dp"
+                android:background="@drawable/blank"
+                android:src="@drawable/exitplaypng" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/bottlepng" />
+
+             <EditText
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="19dp"
+                android:background="@drawable/blank"
+                android:ems="10"
+                android:focusable="false"
+                android:inputType="none"
+                android:textColor="#ffffff"
+                android:gravity="center"
+                
+                android:textSize="22dp" >
+
+                <requestFocus />
+            </EditText>
+           
+
+        </RelativeLayout>
+    </FrameLayout>
+
+</FrameLayout>

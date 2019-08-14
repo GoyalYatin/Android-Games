@@ -1,0 +1,67 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_overlay"
+    tools:context=".Home" >
+
+ 
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" >
+
+           
+
+        </LinearLayout>
+
+		 <RelativeLayout
+		     android:layout_width="match_parent"
+		     android:layout_height="match_parent"
+		     android:background="@drawable/background" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="43dp"
+                    android:src="@drawable/logopng" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignBottom="@+id/textView2"
+                    android:layout_toLeftOf="@+id/textView2"
+                    android:src="@drawable/softech" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/textView2"
+                    android:layout_below="@+id/imageView1"
+                    android:layout_marginLeft="37dp"
+                    android:layout_marginTop="92dp"
+                    android:text="Created by" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/imageView1"
+                    android:layout_below="@+id/textView1"
+                    android:text="Softech Developers"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            </RelativeLayout>
+   
+
+</FrameLayout>

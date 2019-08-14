@@ -1,0 +1,87 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Menu" >
+
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?buttonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" >
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/aboutbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/dare"
+                android:layout_alignLeft="@+id/play"
+                android:background="@drawable/blank"
+                android:src="@drawable/aboutbutton" />
+
+            <ImageButton
+                android:id="@+id/play"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/aboutbutton"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/blank"
+                android:src="@drawable/play" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/spinthebottle" />
+
+            <ImageButton
+                android:id="@+id/exit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/truth"
+                android:layout_below="@+id/truth"
+                android:background="@drawable/blank"
+                android:src="@drawable/exit" />
+
+            <ImageButton
+                android:id="@+id/dare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/aboutbutton"
+                android:layout_centerVertical="true"
+                android:background="@drawable/blank"
+                android:src="@drawable/dare" />
+
+            <ImageButton
+                android:id="@+id/truth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/dare"
+                android:layout_below="@+id/dare"
+                android:background="@drawable/blank"
+                android:src="@drawable/truth" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Created by Softech Developers" />
+
+        </RelativeLayout>
+
+</FrameLayout>
