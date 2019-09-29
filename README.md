@@ -1,7 +1,7 @@
 # Android-Games
 This repo contains the android games, using [android studio](https://developer.android.com/guide)
 
-List of android apps in this repo 
+# List of android apps in this repo 
 - Music in App Example
 - Spin bottle example
 - Dice Role example
@@ -9,7 +9,7 @@ List of android apps in this repo
 - SpinTheBottle
 - Tic Tac Toe
 
-To Come
+# To Come in future
 - Quiz game using https://www.youtube.com/watch?v=PiCZQg4mhBQ&list=PLrnPJCHvNZuDzT1ggoW-gMHRwLf2vmkuT&index=7
 - Music https://www.youtube.com/watch?v=C_Ka7cKwXW0&list=PLrnPJCHvNZuCTyi1Gesn5TTbKVuhAjf8q
 - Music Player https://www.youtube.com/watch?v=xZcHWz077zA&list=PLxefhmF0pcPmPx6bzZNNi61AIodtigWlD
