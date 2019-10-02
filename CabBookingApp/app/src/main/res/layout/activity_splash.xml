@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.sysgames.cabbookingapp.SplashActivity">
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="150dp"
+        android:text="SYS CAB APP" />
+
+    <TextView
+        android:id="@+id/text_view_poweredby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_title"
+        android:layout_marginTop="300dp"
+        android:text="powered by"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/text_view_sysgames"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_poweredby"
+        android:text="Sys Games"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"/>
+
+</RelativeLayout>
