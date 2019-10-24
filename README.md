@@ -22,9 +22,11 @@ This repo contains the android games, using [android studio](https://developer.a
 - Music https://www.youtube.com/watch?v=C_Ka7cKwXW0&list=PLrnPJCHvNZuCTyi1Gesn5TTbKVuhAjf8q
 - Music Player https://www.youtube.com/watch?v=xZcHWz077zA&list=PLxefhmF0pcPmPx6bzZNNi61AIodtigWlD
 - Google map usage app https://www.youtube.com/watch?v=wlvevV3S1y0&list=PLxefhmF0pcPlGUW8tyyOJ8-uF7Nk2VpSj
-- _(ongoing)_ Uber like App https://www.youtube.com/watch?v=Uom9BsMhG5o&list=PLxefhmF0pcPl6gcWvrpTbjGO7rcMWY1jT
+- _(ongoing)_ Uber like App https://www.youtube.com/watch?v=d8JMjBMQaMk&list=PLxefhmF0pcPl6gcWvrpTbjGO7rcMWY1jT&index=6
 - Youtube downloader using https://developers.google.com/api-client-library/java/apis/youtube/v3
 example https://github.com/HaarigerHarald/android-youtubeExtractor
 - Game boy running 2d https://www.youtube.com/watch?v=OojQitoAEXs&t=818s
 - Flying fish game https://www.youtube.com/watch?v=oVj5V1FMvHc&list=PLxefhmF0pcPk6_jdMtHQ1QICTgqbbUvcI
 - Tetris game https://codereview.stackexchange.com/questions/196776/android-tetris-app-design
+- Snake game with no reference
+- Ludo game with no reference
