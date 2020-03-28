@@ -31,3 +31,5 @@ example https://github.com/HaarigerHarald/android-youtubeExtractor
 - Tetris game https://codereview.stackexchange.com/questions/196776/android-tetris-app-design
 - Snake game with no reference
 - Ludo game with no reference
+- AR App https://www.youtube.com/watch?v=EWXGaypl2ms&list=PLsOU6EOcj51cEDYpCLK_bzo4qtjOwDWfW&index=2
+- https://code.tutsplus.com/courses/create-a-voice-controlled-android-app
